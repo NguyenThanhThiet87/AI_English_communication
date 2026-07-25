@@ -9,7 +9,7 @@ interface SidebarProps {
 
 export const Sidebar: React.FC<SidebarProps> = ({ topics, selectedTopicId, onSelectTopic }) => {
   return (
-    <aside className="fixed left-0 top-0 h-full w-[20%] bg-surface-container-low z-50 flex flex-col pt-16 overflow-y-auto shadow-[1px_0_8px_rgba(0,0,0,0.02)]">
+    <aside className="hidden lg:flex fixed left-0 top-0 h-full w-[20%] bg-surface-container-low z-50 flex-col pt-16 overflow-y-auto shadow-[1px_0_8px_rgba(0,0,0,0.02)]">
       <div className="p-sm flex flex-col gap-md">
         <nav className="flex flex-col gap-base">
           <p className="px-sm py-base text-label-sm uppercase tracking-wider text-outline">Categories</p>

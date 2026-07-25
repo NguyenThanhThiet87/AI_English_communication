@@ -7,7 +7,7 @@ interface RightSidebarProps {
 
 export const RightSidebar: React.FC<RightSidebarProps> = ({ activeMessageFeedback }) => {
   return (
-    <aside className="fixed right-0 top-0 h-full w-[20%] bg-surface-container-low z-50 flex flex-col pt-16 shadow-[-1px_0_8px_rgba(0,0,0,0.02)]">
+    <aside className="hidden lg:flex fixed right-0 top-0 h-full w-[20%] bg-surface-container-low z-50 flex-col pt-16 shadow-[-1px_0_8px_rgba(0,0,0,0.02)]">
       <div className="p-sm flex flex-col h-full">
         <div className="mb-md border-b border-outline-variant pb-xs">
           <h3 className="text-headline-md text-on-surface">Feedback</h3>

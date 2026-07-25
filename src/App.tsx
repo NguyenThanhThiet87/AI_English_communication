@@ -301,7 +301,7 @@ export function App() {
         onSelectTopic={handleSelectTopic} 
       />
       
-      <div className="pl-[20%] pr-[20%]">
+      <div className="w-full lg:pl-[20%] lg:pr-[20%]">
         <Header 
           topic={selectedTopic} 
           sessionTimeStr="12:35" 
